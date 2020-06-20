@@ -1,0 +1,11 @@
+{
+  "name": "simple_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "simple_webpack": "./bin/simple_webpack.js"
+  },
+  "repository": "https://github.com/lovefeng0709/simple_webpack.git",
+  "author": "zujiaozhang <859166618@qq.com>",
+  "license": "MIT"
+}
