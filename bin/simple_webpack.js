@@ -2,10 +2,10 @@
 
 // console.log('开始打包')
 
-const path = require('path')
+const path = require('path');
 // 读取需要打包项目的配置文件
-let config = require(path.resolve('webpack.config.js'))
-console.log(config)
-const Compiler = require('..lib/compiler.js')
+let config = require(path.resolve('webpack.config.js'));
 
-new Compiler(config).start()
+const Compiler = require('../lib/compiler.js');
+
+new Compiler(config).start();
