@@ -7,5 +7,11 @@
   },
   "repository": "https://github.com/lovefeng0709/simple_webpack.git",
   "author": "zujiaozhang <859166618@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.10.3",
+    "@babel/parser": "^7.10.3",
+    "@babel/traverse": "^7.10.3"
+  },
+  "devDependencies": {}
 }
